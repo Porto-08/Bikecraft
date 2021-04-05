@@ -58,6 +58,10 @@
     font-size: 36px;
   }
 
+  .introducao-interna {
+    margin-top: 0px;
+  }
+
   /* Qualidade - Home*/
   .qualidade::after {
     display: none;
