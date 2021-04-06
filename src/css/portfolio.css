@@ -26,6 +26,7 @@
 }
 
 /* Slides Plugin */
+
 .rslides,
 .rslides_portfolio {
   position: relative;
@@ -63,7 +64,7 @@
 
 .rslides_tabs {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 14px;
 }
 
 .rslides_tabs li {
@@ -75,13 +76,15 @@
   display: inline-block;
   width: 12px;
   height: 12px;
-  border-radius: 12px;
-  overflow: hidden;
-  text-indent: -200px;
   background: #1d1d1d;
   color: #1d1d1d;
+  border-radius: 20px;
+  overflow: hidden;
+  text-indent: -200px;
 }
-.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+
+.rslides_tabs li a:hover,
+.rslides_tabs li.rslides_here a {
   background: #fec63e;
   color: #fec63e;
 }
